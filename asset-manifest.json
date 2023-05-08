@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Capital-Shop/static/css/main.aed8710b.css",
+    "main.js": "/Capital-Shop/static/js/main.d846cf45.js",
+    "static/js/787.cb8f1ed3.chunk.js": "/Capital-Shop/static/js/787.cb8f1ed3.chunk.js",
+    "static/media/header3.png": "/Capital-Shop/static/media/header3.d27d94d3b18765a0d795.png",
+    "static/media/header5.jpg": "/Capital-Shop/static/media/header5.915e4dc360636b44e1a4.jpg",
+    "static/media/fa-solid-900.ttf": "/Capital-Shop/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/header4.jpg": "/Capital-Shop/static/media/header4.8fed059d1e37d32aea3f.jpg",
+    "static/media/header6.jpg": "/Capital-Shop/static/media/header6.5b15285cb965991177cc.jpg",
+    "static/media/fa-brands-400.ttf": "/Capital-Shop/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/Capital-Shop/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/header1.jpg": "/Capital-Shop/static/media/header1.2f6d177f83c33b694c55.jpg",
+    "static/media/error.svg": "/Capital-Shop/static/media/error.244c491f8ad140a77058e22a70de2df9.svg",
+    "static/media/fa-brands-400.woff2": "/Capital-Shop/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/emptycart.png": "/Capital-Shop/static/media/emptycart.4d8f559caff497ed7996.png",
+    "static/media/header2.jpg": "/Capital-Shop/static/media/header2.932c8ac6311e9e280f7c.jpg",
+    "static/media/main.jpg": "/Capital-Shop/static/media/main.c4ab68dea206e8c322ea.jpg",
+    "static/media/blog2.jpg": "/Capital-Shop/static/media/blog2.8e012579a4e194fcedf4.jpg",
+    "static/media/fa-regular-400.ttf": "/Capital-Shop/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/blog3.jpg": "/Capital-Shop/static/media/blog3.d23ea9634840978d196a.jpg",
+    "static/media/fa-regular-400.woff2": "/Capital-Shop/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/blog1.jpg": "/Capital-Shop/static/media/blog1.7a5e8127b575ef1a33a8.jpg",
+    "static/media/fa-v4compatibility.ttf": "/Capital-Shop/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/services4.svg": "/Capital-Shop/static/media/services4.1364ffa4818ca50651f6e5f70edaae40.svg",
+    "static/media/fa-v4compatibility.woff2": "/Capital-Shop/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "static/media/services1.svg": "/Capital-Shop/static/media/services1.f68ecd71071dbf888a53bf78cea74618.svg",
+    "static/media/services3.svg": "/Capital-Shop/static/media/services3.62fde65f3dc8f559d2827bec5891fc65.svg",
+    "static/media/services2.svg": "/Capital-Shop/static/media/services2.22555a9e4c98066ee3524daa3c95975e.svg",
+    "index.html": "/Capital-Shop/index.html",
+    "main.aed8710b.css.map": "/Capital-Shop/static/css/main.aed8710b.css.map",
+    "main.d846cf45.js.map": "/Capital-Shop/static/js/main.d846cf45.js.map",
+    "787.cb8f1ed3.chunk.js.map": "/Capital-Shop/static/js/787.cb8f1ed3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aed8710b.css",
+    "static/js/main.d846cf45.js"
+  ]
+}
