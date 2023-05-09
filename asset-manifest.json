@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Capital-Shop/static/css/main.aed8710b.css",
-    "main.js": "/Capital-Shop/static/js/main.d846cf45.js",
+    "main.css": "/Capital-Shop/static/css/main.bf45a27c.css",
+    "main.js": "/Capital-Shop/static/js/main.5c032257.js",
     "static/js/787.cb8f1ed3.chunk.js": "/Capital-Shop/static/js/787.cb8f1ed3.chunk.js",
     "static/media/header3.png": "/Capital-Shop/static/media/header3.d27d94d3b18765a0d795.png",
     "static/media/header5.jpg": "/Capital-Shop/static/media/header5.915e4dc360636b44e1a4.jpg",
@@ -28,12 +28,12 @@
     "static/media/services3.svg": "/Capital-Shop/static/media/services3.62fde65f3dc8f559d2827bec5891fc65.svg",
     "static/media/services2.svg": "/Capital-Shop/static/media/services2.22555a9e4c98066ee3524daa3c95975e.svg",
     "index.html": "/Capital-Shop/index.html",
-    "main.aed8710b.css.map": "/Capital-Shop/static/css/main.aed8710b.css.map",
-    "main.d846cf45.js.map": "/Capital-Shop/static/js/main.d846cf45.js.map",
+    "main.bf45a27c.css.map": "/Capital-Shop/static/css/main.bf45a27c.css.map",
+    "main.5c032257.js.map": "/Capital-Shop/static/js/main.5c032257.js.map",
     "787.cb8f1ed3.chunk.js.map": "/Capital-Shop/static/js/787.cb8f1ed3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aed8710b.css",
-    "static/js/main.d846cf45.js"
+    "static/css/main.bf45a27c.css",
+    "static/js/main.5c032257.js"
   ]
 }
