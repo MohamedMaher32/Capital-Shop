@@ -17,13 +17,13 @@ body{
     flex-direction: column;
     align-items: center;
     color: $white-color;
-    h2{
+    h3{
       font-size: 46px;
       line-height: 1.7;
       font-weight: 700;
     }
     p{
-      font-size: 20px;
+      font-size: 18px;
     }
   }
 // ***************************************************************** navbar *********************************************
@@ -415,15 +415,14 @@ nav{
       background-color: $white-color;
       color: $main-color !important;
       border: 2px solid $main-color;
-      
     }
   }
   p{
     font-size: 20px;
   }
   strong{
-    margin: 0 25px;
     color: $main-color;
+    margin-bottom: 10px;
     span{
       color: $black-color;
     }

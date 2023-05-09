@@ -20,7 +20,7 @@ export default function Search() {
                 :
                 <>
                     <div className="page-header" style={{ backgroundImage: `url(${background})` }}>
-                        <h2>#Products Search</h2>
+                        <h3>#Products Search</h3>
                         <p>Save more with coupons & up to 70% off !</p>
                     </div>
                     <div className="container product mt-5 pt-5">

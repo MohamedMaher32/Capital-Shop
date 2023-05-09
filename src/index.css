@@ -50,13 +50,13 @@ body .page-header {
   align-items: center;
   color: #fff;
 }
-body .page-header h2 {
+body .page-header h3 {
   font-size: 46px;
   line-height: 1.7;
   font-weight: 700;
 }
 body .page-header p {
-  font-size: 20px;
+  font-size: 18px;
 }
 body nav form {
   margin-right: 20px;
@@ -432,8 +432,8 @@ body .detalies p {
   font-size: 20px;
 }
 body .detalies strong {
-  margin: 0 25px;
   color: #FF2020;
+  margin-bottom: 10px;
 }
 body .detalies strong span {
   color: #111;

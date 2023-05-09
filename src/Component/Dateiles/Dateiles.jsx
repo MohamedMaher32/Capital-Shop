@@ -17,13 +17,13 @@ export default function Dateiles() {
   useEffect(() => {
     Dispatch(getDetaliesInfo(`${id}`))
   }, [])
-  useEffect(()=>{
+  useEffect(() => {
     if (cartMessageStatus) {
       setTimeout(() => {
         Dispatch(setCartMessageOff())
       }, 1000)
     }
-  },[cartMessageStatus])
+  }, [cartMessageStatus])
   let increaseQty = () => {
     setQuantity((prevQty) => {
       let tempQty = prevQty + 1;
@@ -54,7 +54,7 @@ export default function Dateiles() {
         </div> :
         <>
           <div className="page-header" style={{ backgroundImage: `url(${background})` }}>
-            <h2>#Product Detalies</h2>
+            <h3>#Product Detalies</h3>
             <p>Summer Collection New Modern Design !</p>
           </div>
           {detaliesInfo ?
@@ -71,28 +71,22 @@ export default function Dateiles() {
                   <div className="information px-3">
                     <h2 className='fw-bold mb-4'>{detaliesInfo.title}</h2>
                     <p className='text-muted'>{detaliesInfo.description}</p>
-                    <div className='d-flex  my-4 '>
-                      <strong className="ms-0">Category : <span className="text-capitalize">{detaliesInfo.category}</span></strong>
-                      |
+                    <div className='d-flex flex-column  my-4 '>
+                      <strong>Category : <span className="text-capitalize">{detaliesInfo.category}</span></strong>
                       <strong>Brand : <span>{detaliesInfo.brand}</span></strong>
-                      |
+                      <strong>Discount : <span>{detaliesInfo.discountPercentage} %</span></strong>
                       <strong>Rating : <span>{detaliesInfo.rating} / 5</span></strong>
-                    </div>
-                    <div className='d-flex my-4'>
-                      <strong className="ms-0">Discount : <span>{detaliesInfo.discountPercentage} %</span></strong>
-                      |
-                      <strong>Price : <span className="text-decoration-line-through">{detaliesInfo.price}$</span> <i className="fa-solid fa-arrow-right"></i> <span>{(detaliesInfo.price - (detaliesInfo.price * (detaliesInfo.discountPercentage / 100)).toFixed(2))} $</span></strong>
-                      |
+                      <strong>Price : <span className="text-decoration-line-through">{detaliesInfo.price}$</span> <i className="fa-solid fa-arrow-right"></i> <span>{(detaliesInfo.price - (detaliesInfo.price * (detaliesInfo.discountPercentage / 100)).toFixed(1))} $</span></strong>
                       <strong>Quantity : <span><button className="btn py-1 px-2 me-2" onClick={() => { decreaseQty() }}><i className="fa-solid fa-minus"></i></button> {quantity} <button className="btn py-1 px-2 ms-2" onClick={() => { increaseQty() }}><i className="fa-solid fa-plus"></i></button></span></strong>
                     </div>
                     <button className='btn' onClick={() => { addToCartHandler() }}><i className="fa-solid fa-cart-shopping"></i> Add Cart</button>
-                    <Link to="/shop" className="btn ms-3">Show More Products</Link>
+                    <Link to="/shop" className="btn ms-2">More Products</Link>
                   </div>
                 </div>
               </div>
             </div>
             : ""}
-            {cartMessageStatus && <CartMessage />}
+          {cartMessageStatus && <CartMessage />}
         </>
       }
     </div>

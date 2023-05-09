@@ -3,8 +3,8 @@ export default function Contact() {
   return (
     <div className="contact py-5">
       <div className="page-header" style={{ backgroundImage: `url(${background})` }}>
-        <h2>#Our Contact</h2>
-        <p>LEAVE A MESSAGE. We love to hear from you !</p>
+        <h3>#Our Contact</h3>
+        <p>We love to hear from you !</p>
       </div>
       <div className="container my-5 pt-5">
         <div className="row g-4">

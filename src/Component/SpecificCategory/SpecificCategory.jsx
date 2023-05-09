@@ -20,7 +20,7 @@ export default function SpecificCategory() {
         :
         <>
           <div className="page-header" style={{ backgroundImage: `url(${background})` }}>
-            <h2>#Products Of Category</h2>
+            <h3>#Products Of Category</h3>
             <p>Save more with coupons & up to 70% off !</p>
           </div>
           <div className="container product mt-5 pt-5">

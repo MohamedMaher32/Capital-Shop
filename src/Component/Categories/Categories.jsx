@@ -18,7 +18,7 @@ export default function Categories() {
         </div>
         : <>
           <div className="page-header" style={{ backgroundImage: `url(${background})` }}>
-            <h2>#Our Categories</h2>
+            <h3>#Our Categories</h3>
             <p>Read all case studies about our products !</p>
           </div>
           <div className="container mt-5 pt-5">

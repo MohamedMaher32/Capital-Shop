@@ -17,8 +17,8 @@ export default function Shop() {
         </div>
         : <>
           <div className="page-header" style={{backgroundImage:`url(${background})`}}>
-            <h2>#Our Products</h2>
-            <p>Save more with coupons &amp; up to 70% off !</p>
+            <h3>#Our Products</h3>
+            <p>Save more with coupons & up to 70% off !</p>
           </div>
           <div className="container product mt-5 pt-5">
             <div className="row g-4">

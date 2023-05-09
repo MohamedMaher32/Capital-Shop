@@ -15,7 +15,7 @@ export default function Cart() {
           <div className=' d-flex justify-content-center align-items-center flex-column'>
             <img src={emptyCart} alt="empty" className="w-50" />
             <h2 className='fw-bold '>Your shopping cart is empty.</h2>
-            <Link to="/shop" className='btn mt-4 fw-bold'>Go shopping Now</Link>
+            <Link to="/shop" className='btn mt-4 fw-bold'>Go Shopping</Link>
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@ export default function Cart() {
   return (
     <div className="cart py-5">
       <div className="page-header" style={{ backgroundImage: `url(${background})` }}>
-        <h2>#Cart Detalies</h2>
+        <h3>#Cart Detalies</h3>
         <p>Summer Collection New Modern Design !</p>
       </div>
       <div className="container mt-5">
@@ -51,7 +51,7 @@ export default function Cart() {
                       <span className='mx-1 d-block'>{el?.quantity}</span>
                       <button className='btn btn-success px-1 py-0 d-block w-50  mx-auto rounded-0' onClick={() => Dispatch(toggleCartQty({ id: el?.id, type: "INC" }))}><i className="fa-solid fa-plus"></i></button>
                     </td>
-                    <td className="price">{el?.totalPrice.toFixed(2)}$</td>
+                    <td className="price">{el?.totalPrice.toFixed(1)}$</td>
                     <td><i className="fa-solid fa-trash text-danger fs-5 cusror" onClick={() => Dispatch(removeFromCart(el?.id))}></i></td>
                   </tr>
                 })}
@@ -60,9 +60,9 @@ export default function Cart() {
           </div>
         </div>
         <div className="d-flex justify-content-between align-items-center mt-4 ">
-          <button className="btn btn-warning  fw-bold text-uppercase rounded-0" onClick={() => Dispatch(clearCart())}>Clear Cart Items</button>
+          <button className="btn btn-warning  fw-bold text-uppercase rounded-0" onClick={() => Dispatch(clearCart())}>Clear Cart</button>
           <div className="total d-flex justify-content-center align-items-center flex-column">
-            <strong>Total Price : <span> {totalAmount.toFixed(2)} $</span></strong>
+            <strong>Total Price: <span> {totalAmount.toFixed(1)}$</span></strong>
             <Link to='/' className="btn w-100 rounded-0 mt-2 fw-bold text-uppercase" onClick={() => Dispatch(clearCart())}>Check Out</Link>
           </div>
         </div>
